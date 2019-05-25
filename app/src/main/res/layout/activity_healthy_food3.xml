@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.saniapatmawati12.healthyfood.healthyFood3">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Jenis Makanan \n 4 Sehat 5 Sempurna"
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:textSize="30sp"
+                android:background="#35d42a"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3. Sayuran"
+                android:textSize="30sp"
+                android:layout_marginTop="20sp"/>
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_gravity="center"
+                android:layout_height="250dp"
+                android:src="@drawable/sayur"/>
+            <TextView
+                android:layout_marginLeft="20sp"
+                android:layout_marginRight="20sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textColor="#000"
+                android:textStyle="italic"
+                android:text="Karena banyak mengandung mineral dan serat maka Sayur-sayuran yang baik bagi tubuh adalah sayuran yang berwarna hijau seperti bayam, brokoli, kangkung, dan sawi, sayur-sayuran hijau banyak mengandung zat hijau daun atau klorofil yang berfungsi sebagai antidioksidan dan mempengaruhi sistem imun. Sayur- sayuran hijau banyak mengandung Sulfarophane, isothiocynate. Fungsi kedua zat ini adalah meransang komponen pemecah unsur kimia penyebab kanker. Diantara sayur yang kita bahas antara lain : \n Sawi mengandung zat hijau karena dapat menyehatkan tulang, mencegah kanker, baik untuk diabetes, menehatkan kulit dan rambut membantu tidur dan suasana hati. Sayuran sawi memiliki vitamin K yang mengandung folat, thiamin, niacin fosfor dan kalium. Wortel sangat bermanfaat bagi tubuh khususnya mata, karena mengandung kandungan gula alami. Warna kuning dan orany pada buah mengandung zeaxathin, beta karoten serta vitamin c. Kalium pada sayuran yang berwarna kuning berguna menurunkan tekanan darah tinggi dan melancarkan metabolisme tubuh. Serat pada wortel berfungsi untuk meningkatkan kandungan insulin dalam darah.
+Kubis, brokoli, kembang kol; memiliki kandungan tinggi indoles, kandungan ini memiliki perlindungan anti kanker seperti kanker usus dan payudara. Sayuran brokoli dan kembang kol juga memiliki flavonoid yang berfungsi meningkatkan kekebalan tubuh. Manfaat sayuran secara umum adalah sumber serat yang baik ; mengkosumsi sayuran setiap hari dapat membantu pencernaan dan melancarkan pembuangan kotoran di dalam tubuh. Serat pada sayuran berfungsi menyerap air ekstra dalam usus sehingga dapat mencegah wasir dan sembelit.
+Anti kanker: sayuran memiliki kandungan indoles yang merupakan zat pelindung anti kanker. Sayuran merupakan sumber antidioksidan bagi tubuh yang berfungsi mengurangi risiko kanker. Protein dan asam amino: Asam amino banyak terdapat pada sayur-sayuran seperti bayam, dan kacang-kacangan. Asam amino berfungsi mengganti sumber protein yang hilang."/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30sp"
+                android:textStyle="italic"
+                android:layout_marginTop="30sp"
+                android:textColor="#109b06"
+                android:text="Apakah anda ingin tahu dengan makanan sehat yang lainnya? bagaimana kalau dengan buah-buahan dan manfaatnya? untuk lebih jauhnya silahkan klik dibawah"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_marginTop="30sp"
+                android:layout_height="wrap_content"
+                android:text="Next"
+                android:layout_marginBottom="50sp"
+                android:onClick="button3"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

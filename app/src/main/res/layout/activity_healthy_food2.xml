@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.saniapatmawati12.healthyfood.healthyFood2">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Jenis Makanan \n 4 Sehat 5 Sempurna"
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:textSize="30sp"
+                android:background="#35d42a"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2. Lauk Pauk"
+                android:textSize="30sp"
+                android:layout_marginTop="20sp"/>
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_gravity="center"
+                android:layout_height="250dp"
+                android:src="@drawable/lauk"/>
+            <TextView
+                android:layout_marginLeft="20sp"
+                android:layout_marginRight="20sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textColor="#109b06"
+                android:textStyle="italic"
+                android:textAlignment="center"
+                android:text="Kandungan gizi yang terdapat pada mlauk pauk adalah protein, salah satunya yaitu ikan. Protein berfungsi untuk membangun jaringan tubuh yang baru dan mengganti yang rusak, beberapa contoh protein yaitu ayam, tahu, telur, tempe, adapun manfaatnya yaitu sebagai berikut : "/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/laukk"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20sp"
+                android:layout_marginTop="30sp"
+                android:layout_marginLeft="20sp"
+                android:textColor="#000"
+                android:text="Nahh sekarang, kalian pasti berfikir, kenapa sih kita memerlukan lauk pauk? Lauk pauk yang benyak mengandung protein berfungsi untuk membentuk sistem imun dan menyeimbangkan kerja hormon. Ikan banyak mengandung protein karena mengandung protein nabati dan beberapa jenis ikan seperti salmon dan tuna mengandung omega 3 yang bagus bagi perkembangan otak. Ayam mengandung protein hewani dan juga lemak, namun tidak disarankan mengkonsumsi daging ayam setiap hari. Bagian dari tubuh ayam yang mengandung banyak lemak di bagian hati dan usus. Tahu adalah sumber protein yang murah dan mudah pengolahannya sehingga menjadi makanan favorit orang Indonesia, selain harga yang murah, cara pengolahan makanan ini juga cukup mudah. Telur mengandung sumber protein yang tinggi dan terutama kuning telur. Protein pada telur berpotensi dalam memperkuat jaringan otot karena mengandung magnesium tubuh dan mengatur keasaman pH tubuh. Tempe mengandung asam amino dan memakannya lebih baik dibanding memakan lauk yang mengandung protein hewani."/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30sp"
+                android:textStyle="italic"
+                android:layout_marginTop="30sp"
+                android:textColor="#109b06"
+                android:text="Sekarang sobat sudah mengetahui jenis-jenis lauk pauk dan manfaatnya. Bagaimana dengan sayur yang kaya akan serat dan mineral? silahkan simak dibawah ini "/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_marginTop="30sp"
+                android:layout_height="wrap_content"
+                android:text="Next"
+                android:layout_marginBottom="50sp"
+                android:onClick="button2"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.saniapatmawati12.healthyfood.healthyFood5">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Jenis Makanan \n 4 Sehat 5 Sempurna"
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:textSize="30sp"
+                android:background="#35d42a"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5. Susu"
+                android:textSize="30sp"
+                android:layout_marginTop="20sp"/>
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_gravity="center"
+                android:layout_height="250dp"
+                android:src="@drawable/suus"/>
+            <TextView
+                android:layout_marginLeft="20sp"
+                android:layout_marginRight="20sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textColor="#109b06"
+                android:textStyle="italic"
+                android:textAlignment="center"
+                android:text="Susu berasal dari sumber protein hewani, fungsinya sangat baik bagi pertumbuhan tulang dan meningkatkan energi. Selain susu dari protein hewani, juga ada susu dari protein nabati yakni susu kedelai. Jika Anda memiliki kelebihan berat badan, dapat mengkonsumsi susu rendah lemak."/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textColor="#fff"
+                android:layout_marginTop="30sp"
+                android:background="#109b06"
+                android:text="Sebenarnya apa sih manfaat susu dan mengapa kita sangat disarankan untuk mengkonsumsinya? "
+                android:textAlignment="center"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20sp"
+                android:layout_marginTop="30sp"
+                android:layout_marginLeft="20sp"
+                android:textColor="#000"
+                android:text="susu almond cocok bagi seseorang yang alergi pada Laktosa, laktosa berlebih dapat menyebabkan produksi gas dan diare. susu kedelai mengandung kandungan lemak jenuh yang rendah. Susu kedelai dapat membantu program diet dan cocok dijadikan susu pengganti susu sapi. susu kambing mengandung 170 kalori, 10 gram lemak dan 27 mg kolesterol. Susu kambing memiliki anti alergi yang baik bagi tubuh. Susu sapi memiliki kalori yang sangat banyak yakni 80-150 kalori. Bagi wanita susu sapi baik untuk menambah energi saat PMS juga dapat mengurangi stres di akhir hari."/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/button5"
+                android:layout_gravity="center"
+                android:text=" SELESAI "/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textColor="#fff"
+                android:layout_marginTop="30sp"
+                android:layout_marginBottom="50sp"
+                android:background="#109b06"
+                android:text="Nahh.. sekarang anda sudah mengetahui tentang makanan 4 sehat 5 sempurna bukan? Untuk itu sangat penting untuk kita menjaga dan mengatur pola makan dengan 4 sehat 5 sempurna untuk perkembangan dan pertumbuhan kita."
+                android:textAlignment="center"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

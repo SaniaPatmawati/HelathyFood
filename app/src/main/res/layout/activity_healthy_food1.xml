@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.saniapatmawati12.healthyfood.healthyFood1">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Jenis Makanan \n 4 Sehat 5 Sempurna"
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:textSize="30sp"
+                android:background="#35d42a"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1. Karbohidrat"
+                android:textSize="30sp"
+                android:layout_marginTop="20sp"/>
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_gravity="center"
+                android:layout_height="250dp"
+                android:src="@drawable/nasi"/>
+            <TextView
+                android:layout_marginLeft="20sp"
+                android:layout_marginRight="20sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textColor="#109b06"
+                android:textStyle="italic"
+                android:textAlignment="center"
+                android:text="Kandungan gizi yang terdapat pada makanan pokok adalah karbohidrat, salah satunya yaitu nasi. Nasi yang mengandung gula bermanfaat sebagai sumber energi bagi tubuh. Selain nasi, ada makanan pokok karbohidrat yang banyak dikonsumsi dan berbagai macam manfaatnya, yaitu sebagai berikut : "/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/k"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20sp"
+                android:layout_marginTop="30sp"
+                android:layout_marginLeft="20sp"
+                android:textColor="#000"
+                android:text="Menurut sobat, apasih fungsi karbohidrat? Kalau sobat makan nasi, pasti kenyang bukan? Tapi, selain itu sebenarnya karbohidrat memiliki banyak sekali manfaat, yaitu Sebagai sumber energi utama. Berperan dalam proses metabolisme, menjaga keseimbangan antara asam dan basa yang terdapat dalam tubuh, serta sebagai pembentuk struktur sel, jaringan, dan organ tubuh. Karbohidrat memiliki peran penting dalam membantu proses pencernaan makanan. Membantu dalam penyerapan kalsium. Karbohidrat merupakan pembentuk senyawa lainnya. Sebagai komponen penyusun gen yang terdapat dalam inti sel yang sangat penting dalam pewarisan sifat. Membantu dalam berlangsungnya proses buang air besar."/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30sp"
+                android:textStyle="italic"
+                android:layout_marginTop="30sp"
+                android:textColor="#109b06"
+                android:text="Apakah anda ingin tahu dengan makanan sehat yang lainnya? bagaimana dengan lauk pauk dan manfaatnya? untuk lebih jauhnya silahkan klik dibawah"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_marginTop="30sp"
+                android:layout_height="wrap_content"
+                android:text="Next"
+                android:layout_marginBottom="50sp"
+                android:onClick="button1"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
